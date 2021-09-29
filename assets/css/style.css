@@ -1,4 +1,10 @@
-/* Root variables + Body */
+/* General + Root variables + Body */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
 :root {
     --primarycolor: rgb(182, 0, 158);
     --secondarycolor: rgb(0, 255, 76);
@@ -13,6 +19,7 @@ body {
 
 /* Header + Nav style */
 header {
+    padding: 10px;
     background-color: var(--tertiarycolor);
     display: flex;
     justify-content: space-between;
@@ -22,6 +29,13 @@ header {
     top: 0;
     z-index: 9999;
 }
+
+header h1 {
+    font-weight: bold;
+    padding: 10px 0px 10px 40px;
+    font-size: 36px;
+    color: var(--primary-color);
+  }
 
 header a {
     text-decoration: none;
@@ -40,14 +54,12 @@ header nav ul {
     list-style: none;
   }
 
-  header nav ul li a {
-    padding: 10px 100px;
+  header nav ul li {
+    padding: 10px 60px 10px 100px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   }
 
-  header nav ul li a:hover {}
 
 
 
@@ -57,12 +69,39 @@ header nav ul {
 
 
 /* About style */
+.heading {
+    display: flex;
+  flex-wrap: wrap;
+  background-color: var(--secondarycolor);
+  padding: 40px;
+}
 
+.about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#about img {
+    padding: 10px 10px 10px 10px;
+    width: 25%;
+  margin: auto;
+}
+
+#about p {
+  font-size: 1.5vw;
+  margin: auto;
+}
 
 
 
 /* Work style */
-
+.project img {
+    width: 50%;
+    display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
 
 
 
