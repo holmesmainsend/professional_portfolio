@@ -1,9 +1,53 @@
-/* Root variables */
+/* Root variables + Body */
+:root {
+    --primarycolor: rgb(182, 0, 158);
+    --secondarycolor: rgb(0, 255, 76);
+    --tertiarycolor: rgb(0, 189, 189);
+}
 
+body {
+    color: var(--primarycolor);
+    font-family: Helvetica, Arial, sans-serif;
+  }
 
 
 /* Header + Nav style */
+header {
+    background-color: var(--tertiarycolor);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
+}
 
+header a {
+    text-decoration: none;
+    color: var(--primarycolor);
+  }
+
+header nav {
+    margin: 7px 200px;
+  }
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 100px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+
+  header nav ul li a:hover {}
 
 
 
