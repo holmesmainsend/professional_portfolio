@@ -96,12 +96,22 @@ header nav ul {
 
 
 /* Work style */
-.project img {
-    width: 50%;
+.project-wrapper {
     display: flex;
-  flex-wrap: wrap;
-  margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.project img {
+    width: 75%;
+
+}
+
+.sub-project-wrapper {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
 
 
 
