@@ -112,6 +112,10 @@ header nav ul {
     flex-wrap: wrap; 
 }
 
+.sub-project img {
+  width: 25%;
+}
+
 
 
 
