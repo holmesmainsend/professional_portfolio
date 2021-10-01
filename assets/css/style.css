@@ -110,37 +110,44 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: center;
     background-color: var(--secondarycolor);
+    max-width: 90%;
+    margin: auto;
+    font-size: 2vw;
 }
 
 .project img {
-    max-width: 75%;
+    max-width: 100%;
     justify-content: center;
+    border: var(--tertiarycolor) solid 10px;
+}
+
+.sub-project-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .sub-project {
-  margin: 50px auto;
+  margin: 40px auto;
   padding-bottom: 50px;
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   background-color: var(--secondarycolor);
+  font-size: 1.8vw;
 }
 
 .sub-project img {
   max-width: 100%;
+  border: var(--tertiarycolor) solid 10px;
 }
 
 
 
 
 /* Contact style */
-.sub-heading {
-  background-color: var(--secondarycolor);
-}
-
-.sub-heading a {
+.footer-link a {
   text-decoration: none;
   color: var(--tertiarycolor);
 }
