@@ -82,8 +82,9 @@ header nav ul {
 .heading {
   display: flex;
   flex-wrap: wrap;
+  width: 20%;
+  border-bottom: solid 5px var(--secondarycolor);
   padding: 140px 0px 10px 50px;
-  border-bottom: 10px solid;
   border-color: var(--secondarycolor);
   background-color: var(--primarycolor);
   color: var(--tertiarycolor);
@@ -102,7 +103,7 @@ header nav ul {
 }
 
 #about img {
-    padding: 10px 10px 10px 10px;
+    padding: 50px 10px 10px 10px;
     width: 25%;
     margin: auto;
 }
