@@ -62,17 +62,23 @@ header nav ul {
 
 
 
-/* Banner? style */
+/* Banner style */
+.figure-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 
 
+/* General */
 .heading {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--tertiarycolor);
   padding: 40px;
-  border: 10px solid;
+  border-bottom: 10px solid;
   border-color: var(--primarycolor);
   color: var(--secondarycolor);
   font-size: 28px;
@@ -86,19 +92,18 @@ header nav ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-color: var(--tertiarycolor);
 }
 
 #about img {
     padding: 10px 10px 10px 10px;
     width: 25%;
-  margin: auto;
+    margin: auto;
 }
 
 #about p {
   font-size: 1.5vw;
   margin: auto;
-  color: var(--secondarycolor);
+  color: var(--primarycolor);
 }
 
 
