@@ -75,6 +75,7 @@ header nav ul {
   border: 10px solid;
   border-color: var(--primarycolor);
   color: var(--secondarycolor);
+  font-size: 28px;
 }
 
 
@@ -102,26 +103,33 @@ header nav ul {
 
 
 
+
 /* Work style */
-.project-wrapper {
+.project {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--primarycolor);
-}
-
-.project img {
-    width: 75%;
-}
-
-.sub-project-wrapper {
-    display: flex;
-    flex-wrap: wrap; 
     background-color: var(--secondarycolor);
 }
 
+.project img {
+    max-width: 75%;
+    justify-content: center;
+}
+
+.sub-project {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondarycolor);
+}
+
 .sub-project img {
-  width: 25%;
+  max-width: 100%;
 }
 
 
@@ -134,8 +142,9 @@ header nav ul {
 
 .sub-heading a {
   text-decoration: none;
-  color: var(--primarycolor);
+  color: var(--tertiarycolor);
 }
+
 
 
 
