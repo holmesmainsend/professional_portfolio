@@ -6,13 +6,12 @@
   }
 
 :root {
-    --primarycolor: rgb(182, 0, 158);
-    --secondarycolor: rgb(0, 255, 76);
-    --tertiarycolor: rgb(0, 189, 189);
+    --primarycolor: rgb(136, 0, 0);
+    --secondarycolor: rgb(0, 145, 43);
+    --tertiarycolor: rgb(255, 253, 208);
 }
 
 body {
-    color: var(--primarycolor);
     font-family: Helvetica, Arial, sans-serif;
   }
 
@@ -34,7 +33,7 @@ header h1 {
     font-weight: bold;
     padding: 10px 0px 10px 40px;
     font-size: 36px;
-    color: var(--primary-color);
+    color: var(--tertiarycolor);
   }
 
 header a {
@@ -68,18 +67,25 @@ header nav ul {
 
 
 
-/* About style */
 .heading {
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
-  background-color: var(--secondarycolor);
+  background-color: var(--tertiarycolor);
   padding: 40px;
+  border: 10px solid;
+  border-color: var(--primarycolor);
+  color: var(--secondarycolor);
 }
 
+
+
+
+/* About style */
 .about-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--tertiarycolor);
 }
 
 #about img {
@@ -91,6 +97,7 @@ header nav ul {
 #about p {
   font-size: 1.5vw;
   margin: auto;
+  color: var(--secondarycolor);
 }
 
 
@@ -100,6 +107,7 @@ header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: var(--primarycolor);
 }
 
 .project img {
@@ -109,6 +117,7 @@ header nav ul {
 .sub-project-wrapper {
     display: flex;
     flex-wrap: wrap; 
+    background-color: var(--secondarycolor);
 }
 
 .sub-project img {
