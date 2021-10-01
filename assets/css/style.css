@@ -6,8 +6,8 @@
   }
 
 :root {
-    --primarycolor: rgb(255, 212, 212);
-    --secondarycolor: rgb(187, 255, 207);
+    --primarycolor: rgb(255, 255, 255);
+    --secondarycolor: rgb(75 ,0 , 130);
     --tertiarycolor: rgb(138, 138, 138);
 }
 
@@ -18,8 +18,7 @@ body {
 
 /* Header + Nav style */
 header {
-    padding: 10px;
-    background-color: var(--tertiarycolor);
+    background-color: var(--primarycolor);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -30,15 +29,20 @@ header {
 }
 
 header h1 {
-    font-weight: bold;
-    padding: 10px 0px 10px 40px;
-    font-size: 36px;
+    padding: 10px 0px 0px 40px;
+    font-size: 3vw;
     color: var(--tertiarycolor);
+    font-weight: lighter;
   }
 
 header a {
     text-decoration: none;
-    color: var(--primarycolor);
+    color: var(--tertiarycolor);
+  }
+
+  .period {
+    color: var(--secondarycolor);
+    font-weight: bold;
   }
 
 header nav {
@@ -54,19 +58,21 @@ header nav ul {
   }
 
   header nav ul li {
-    padding: 10px 60px 10px 100px;
+    padding: 21px 60px 0px 100px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 1.8vw;
   }
 
 
 
 
 /* Banner style */
-.figure-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.banner {
+  width: 90%;
+  height: 100px;
+  object-fit: cover;
+  padding: 20px;
+  border-radius: 35px;
 }
 
 
@@ -76,12 +82,13 @@ header nav ul {
 .heading {
   display: flex;
   flex-wrap: wrap;
-  background-color: var(--tertiarycolor);
-  padding: 40px;
+  padding: 90px 0px 10px 50px;
   border-bottom: 10px solid;
-  border-color: var(--primarycolor);
-  color: var(--secondarycolor);
-  font-size: 28px;
+  border-color: var(--secondarycolor);
+  background-color: var(--primarycolor);
+  color: var(--tertiarycolor);
+  font-size: 1.8vw;
+  font-weight: lighter;
 }
 
 
@@ -103,7 +110,8 @@ header nav ul {
 #about p {
   font-size: 1.5vw;
   margin: auto;
-  color: var(--primarycolor);
+  color: var(--tertiarycolor);
+  font-weight: lighter;
 }
 
 
@@ -114,10 +122,13 @@ header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--secondarycolor);
-    max-width: 90%;
+    max-width: 70%;
     margin: auto;
     font-size: 2vw;
+    color: var(--tertiarycolor);
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .project img {
@@ -133,14 +144,15 @@ header nav ul {
 
 .sub-project {
   margin: 40px auto;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   width: 40%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: left;
-  background-color: var(--secondarycolor);
   font-size: 1.8vw;
+  color: var(--tertiarycolor);
+  font-weight: lighter;
 }
 
 .sub-project img {
