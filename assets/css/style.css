@@ -29,7 +29,7 @@ header {
 }
 
 header h1 {
-    padding: 20px 0px 0px 5%;
+    padding: 3%;
     font-size: 4vw;
     color: var(--tertiarycolor);
     font-weight: lighter;
@@ -45,22 +45,17 @@ header a {
     font-weight: bold;
   }
 
-header nav {
-    margin: 7px 200px;
-  }
-
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style: none;
-    width: 100%;
   }
 
   header nav ul li {
-    padding: 20px 20% 20px 20%;
+    padding: 60px 40px 20px 40px;
     font-weight: lighter;
-    font-size: 1.8vw;
+    font-size: 2vw;
   }
 
 
@@ -89,7 +84,7 @@ header nav ul {
   margin-left: 20px;
   width: 20%;
   border-bottom: solid 3px var(--secondarycolor);
-  padding: 160px 0px 10px 75px;
+  padding: 160px 0px 10px 5%;
   border-color: var(--secondarycolor);
   background-color: var(--primarycolor);
   color: var(--tertiarycolor);
@@ -108,7 +103,7 @@ header nav ul {
 }
 
 #about img {
-    padding: 50px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
     width: 25%;
     margin: auto;
     padding: 5px;
@@ -116,7 +111,7 @@ header nav ul {
 }
 
 #about p {
-  font-size: 1.5vw;
+  font-size: 2vw;
   margin: auto;
   color: var(--tertiarycolor);
   font-weight: lighter;
