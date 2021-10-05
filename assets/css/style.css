@@ -70,7 +70,7 @@ header nav ul {
   border-radius: 15px;
   position: -webkit-sticky;
   position: sticky;
-  top: 70px;
+  top: 90px;
   z-index: 9999;
   background-color: white;
 }
@@ -207,22 +207,3 @@ footer ul li {
   font-weight: lighter;
   font-size: 1.8vw;
 }
-
-
-
-
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {}
-
-
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {}
-
-
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {}
-
-
-
