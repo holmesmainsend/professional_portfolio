@@ -18,18 +18,19 @@ body {
 
 /* Header + Nav style */
 header {
+    width: 100%;
     background-color: var(--primarycolor);
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
+    /* position: -webkit-sticky; */
     top: 0;
     z-index: 9999;
 }
 
 header h1 {
-    padding: 3%;
+    padding-top: 20px;
+    padding-left: 2%;
     font-size: 4vw;
     color: var(--tertiarycolor);
     font-weight: lighter;
@@ -44,6 +45,10 @@ header a {
     color: var(--secondarycolor);
     font-weight: bold;
   }
+
+header nav {
+  margin-left: auto;
+}
 
 header nav ul {
     display: flex;
@@ -64,15 +69,15 @@ header nav ul {
 /* Banner style */
 .banner {
   width: 100%;
-  height: 70px;
+  height: 6vh;
   object-fit: cover;
-  padding: 0px 5px 5px 5px;
+  padding: 5px 0px 0px 0px;
   border-radius: 15px;
   position: -webkit-sticky;
   position: sticky;
-  top: 90px;
+  top: 85px;
   z-index: 9999;
-  background-color: white;
+  background-color: transparent;
 }
 
 
@@ -206,4 +211,26 @@ footer ul li {
   color: var(--tertiarycolor);
   font-weight: lighter;
   font-size: 1.8vw;
+}
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+  header h1 {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    top: 70px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header h1 {
+    padding-top: 9%;
+  }
 }
